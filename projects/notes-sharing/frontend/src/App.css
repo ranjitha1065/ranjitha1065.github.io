@@ -1,0 +1,30 @@
+* { box-sizing: border-box; margin: 0; padding: 0; }
+body { font-family: 'Segoe UI', sans-serif; background: #f5f5f5; color: #333; }
+.app { max-width: 720px; margin: 2rem auto; padding: 1.5rem; }
+.topbar { display: flex; justify-content: space-between; align-items: center; margin-bottom: 1.25rem; }
+h1 { font-size: 24px; font-weight: 700; } h1 span { color: #185FA5; }
+.primary-btn { height: 38px; padding: 0 18px; background: #185FA5; color: #fff; border: none; border-radius: 8px; font-size: 14px; cursor: pointer; }
+.primary-btn:hover { background: #0C447C; }
+.upload-form { background: #fff; border: 1px dashed #ccc; border-radius: 12px; padding: 1.25rem; margin-bottom: 1.25rem; }
+.upload-form h2 { font-size: 16px; margin-bottom: .75rem; }
+.form-row { display: flex; gap: 8px; flex-wrap: wrap; margin-bottom: .75rem; }
+.form-row input, .form-row select { flex: 1; min-width: 120px; height: 36px; border: 1px solid #ddd; border-radius: 8px; padding: 0 10px; font-size: 13px; }
+.file-label { display: block; border: 1px dashed #aaa; border-radius: 8px; padding: .75rem; text-align: center; cursor: pointer; color: #666; font-size: 13px; margin-bottom: .75rem; }
+.file-label:hover { border-color: #185FA5; color: #185FA5; }
+.error { color: #A32D2D; font-size: 13px; margin-bottom: .5rem; }
+.controls { display: flex; gap: 8px; margin-bottom: 1rem; flex-wrap: wrap; }
+.controls input { flex: 1; min-width: 160px; height: 36px; border: 1px solid #ddd; border-radius: 8px; padding: 0 12px; font-size: 14px; background: #fff; }
+.controls select { height: 36px; border: 1px solid #ddd; border-radius: 8px; padding: 0 8px; font-size: 13px; background: #fff; }
+.notes-grid { display: flex; flex-direction: column; gap: 8px; }
+.note-card { background: #fff; border: 1px solid #eee; border-radius: 10px; padding: .85rem 1rem; display: flex; align-items: center; gap: 12px; }
+.note-card:hover { border-color: #ccc; }
+.note-icon { font-size: 24px; flex-shrink: 0; }
+.note-info { flex: 1; min-width: 0; }
+.note-title { font-size: 14px; font-weight: 500; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+.note-meta { font-size: 12px; color: #888; margin-top: 3px; }
+.badge { display: inline-block; background: #E6F1FB; color: #0C447C; font-size: 11px; padding: 1px 8px; border-radius: 99px; margin-right: 6px; }
+.dl-btn { height: 30px; padding: 0 14px; border: 1px solid #ddd; border-radius: 8px; text-decoration: none; font-size: 12px; color: #333; white-space: nowrap; display: flex; align-items: center; }
+.dl-btn:hover { background: #f5f5f5; }
+.del-btn { width: 26px; height: 26px; border: none; background: transparent; cursor: pointer; color: #aaa; font-size: 13px; border-radius: 6px; }
+.del-btn:hover { background: #FCEBEB; color: #A32D2D; }
+.empty { text-align: center; color: #aaa; padding: 2rem; font-size: 14px; }
